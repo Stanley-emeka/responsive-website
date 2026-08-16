@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header{ position: fixed;
+            top: 0;
+            width: 100%;
+            background: white;
+}
+.menu_open,.menu_close{
+    display: none;
+}
+header nav{
+    display: flex;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    
+    font-weight: 800;
+   gap: 0.3rem;
+    color: black;
+    letter-spacing: 0;
+}
+
+.Mark_logo{
+    color: rgb(46, 46, 232);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 27px;
+}
+
+.sbtn{
+    background-color: rgb(46, 46, 232);
+    color: white;
+    border-radius: 6px;
+    padding: 0.2rem 1rem;
+}
+
+.side-logo a{
+    display: none;
+}
+a { 
+    text-decoration: none;
+}
+nav ul  {
+    list-style: none;
+    display: flex;
+    gap:4rem;
+   
+    
+}
+ul a{
+    color: rgb(11, 11, 11);
+    padding-bottom: 0.3rem;
+    
+}
+
+ul a:hover{
+    border-bottom: 2px solid rgb(9, 98, 222);
+}
+
+.hero{
+    margin: 1.5rem 0;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* justify-content: space-between; */
+    gap: 3rem;
+    background-color: white;
+    padding: 0 4rem;
+    
+    
+}
+
+.Wbtn{
+    letter-spacing: 0;
+    background-color: lightblue;
+    color: rgb(46, 46, 232);
+    font-size: 8px;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.4rem;
+
+}
+
+.hero2 img{
+    width:300px;
+    margin-top: 4rem;
+    
+}
+
+.hero1{
+    margin-top: 4rem;
+}
+.hero1 h1{
+    line-height: 2.2rem;
+}
+
+.hspan{
+    color: rgb(46, 46, 232);
+}
+
+.hero1 p{
+    margin-top: 1rem;
+    line-height: 1.8rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.a_hero {
+    display: flex;
+    gap: 3rem;
+    margin-top: 1.5rem;
+    
+}
+
+.a_btn1{
+    color: aliceblue;
+    background-color: rgb(46, 46, 232);
+    padding: 9px 24px;
+    border-radius: 10px;
+    border: none;
+}
+
+.a_btn2{
+    color: blue;
+    padding: 9px 24px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.featured{
+    background-color: whitesmoke;
+    
+}
+.container {
+           
+            padding: 5rem 4rem;
+            
+        }
+
+.container h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.featured_grid{
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:2rem;
+}
+
+.feature_card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem;
+     box-shadow: 0 9px 17px rgba(0, 0, 0, 0.3) ;
+   
+}
+
+.sfont{
+    color: blue;
+    font-size: 1.7rem;
+    
+}
+.sfont i{
+    margin-bottom: 13px;
+}
+
+.feature_card h4{
+    margin-bottom: 10px;
+}
+.feature_card p {
+   line-height: 1.5rem;
+}
+
+/* about  */
+
+.about_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.about1 img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+}
+
+.about2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abtn {
+    letter-spacing: 0;
+    background-color: lightblue;
+    color: rgb(46, 46, 232);
+    font-size: 10px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+
+}
+
+.contain h1{
+   
+    line-height: 2.2rem;
+}
+
+.contain p{
+     margin-top: 1rem;
+    line-height: 1.8rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.lbtn{
+    background-color: rgb(46, 46, 232);
+    color: white;
+    border-radius: 6px;
+    padding: 0.2rem 1rem;
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+/* testimonial */
+.t_container{
+    background-color: whitesmoke;
+    padding: 5rem 4rem;
+}
+
+.t_grid {
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 2rem;
+}
+
+.t_card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    box-shadow: 0 9px 17px rgba(0, 0, 0, 0.3) ;
+   
+}
+.t_container h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.t_card a {
+    display: inline-block;
+    color: rgb(46, 46, 232);
+    margin-top: 2rem;
+}
+
+
+/* footer */
+
+.n_footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2.5rem;
+}
+
+.N_footer{
+    padding: 2rem 4rem;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+
+footer p:last-child{
+    
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+
+.c_footer ul {
+    list-style-type: none;
+    color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.c_footer ul li {
+    margin-top: 0.6rem;
+
+
+}
+
+.f_font{
+    display: flex;
+    gap: 1rem;
+    font-size: 30px;
+    margin-top: 1.3rem;
+}
+
+.novad p{
+    margin-top: 1.1rem;
+    line-height: 1.7rem;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.ns_footer p{
+     margin: 0.7rem 0;
+    /* line-height: 1.7rem; */
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.ns_footer input{
+   
+    border:1px solid grey;
+    padding: 0.3rem ;
+    border-radius: 7px;
+}
+
+.ns_footer button{
+    margin-top: 1rem;
+    background-color: rgb(46, 46, 232);
+    color: white;
+    border-radius: 6px;
+    padding: 0.2rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.ns_footer button:hover{
+    background-color: skyblue;
+}
+
+hr{
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .menu{
+        display: none;
+        height: 100dvh;
+        backdrop-filter: blur(50px);
+        background-color: rgba(240, 248, 255, 0.5);
+        width: 50%;
+        position:fixed;
+        right: 0;
+        top: 0;
+        overflow: hidden;
+       
+
+    }
+
+    .menu_open{
+        display: block;
+        /* position: fixed;
+        top: 0;
+        right: 0;
+        margin-right: 30px;
+        margin-top: 10px; */
+    }
+    header{
+        display: flex;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding:0 1rem;
+        box-sizing: border-box;
+    }
+    .bar1{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        
+    }
+   
+    .menu_close{
+        display: block;
+        position: fixed;
+        margin-top: 6px;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        margin-top: 10rem;
+
+        
+        
+    }
+     .side-logo a{
+        display: flex;
+        color: white;
+        font-size: 35px;
+        align-items: center;
+          padding: 20px;
+          color: black;
+    }
+    .side-logo .Mark_logo{
+        font-size: 50px;
+    }
+
+    
+    nav .logo,.sbtn{
+        display: none;
+    }
+    
+    .container1 {
+        grid-template-columns: 1fr;
+    }
+    .about_grid {
+    
+    grid-template-columns: 1fr;
+}
+.about1 img{
+    display: none;
+}
+.c_footer{
+    display: none;
+}
+.ns_footer{
+    display: none;
+}
+.novad p{
+    display: none;
+}
+hr{
+    display: none;
+}
+.novad .logo{
+   justify-content: center;
+   font-size: 25px;
+   margin-left: 4.5rem;
+   margin-bottom: 2rem;
+}
+.Mark_logo{
+    font-size: 30px;
+}
+.f_font{
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+footer p:last-child{
+    margin-left: 1.8rem;
+}
+.a_hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  text-align: center;
+    
+}
+}
+
+ 

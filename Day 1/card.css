@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    
+}
+
+.container{
+    width: 300px;
+    padding: 1rem 1rem;
+    
+    background-color: gray;
+    overflow: scroll;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 1rem;
+}
+.r_card{
+    background-color: aliceblue;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 1rem 1.5rem;
+    
+   
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 600 180">
+
+    <!-- Gold Circle -->
+
+    <circle
+        cx="70"
+        cy="90"
+        r="52"
+        fill="none"
+        stroke="#d8a24a"
+        stroke-width="4"/>
+
+    <!-- Fork -->
+
+    <path
+        d="M55 50 L55 105"
+        stroke="#d8a24a"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+    <path d="M48 50 L48 65" stroke="#d8a24a" stroke-width="3"/>
+    <path d="M52 50 L52 65" stroke="#d8a24a" stroke-width="3"/>
+    <path d="M58 50 L58 65" stroke="#d8a24a" stroke-width="3"/>
+    <path d="M62 50 L62 65" stroke="#d8a24a" stroke-width="3"/>
+
+    <!-- Knife -->
+
+    <path
+        d="M88 50
+           L88 105"
+        stroke="#d8a24a"
+        stroke-width="5"
+        stroke-linecap="round"/>
+
+    <!-- Flame -->
+
+    <path
+        d="
+        M70 78
+        C62 65 65 52 70 48
+        C75 54 78 64 70 78Z"
+
+        fill="#d8a24a"/>
+
+    <!-- Name -->
+
+    <text
+        x="150"
+        y="88"
+        fill="white"
+        font-size="54"
+        font-family="Playfair Display">
+
+        Flavoro
+
+    </text>
+
+    <!-- Restaurant -->
+
+    <text
+        x="154"
+        y="120"
+        fill="#d8a24a"
+        font-size="18"
+        letter-spacing="6"
+        font-family="Poppins">
+
+        RESTAURANT
+
+    </text>
+
+</svg>
